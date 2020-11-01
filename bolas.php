@@ -22,11 +22,11 @@ if( isset( $_GET['resultadoBolas'] ) ){
 
 if( isset( $_GET['temas'] ) ){
     echo <<<EOT
-<script defer type="text/javascript" src="js/setTemas.js"></script>
+<script defer type="text/javascript" src="/js/setTemas.js"></script>
 EOT;
 }
 if( isset( $_GET['bolas'] ) ){
     echo <<<EOT
-<script defer type="text/javascript" src="js/setBolas.js"></script>
+<script defer type="text/javascript" src="/js/setBolas.js"></script>
 EOT;
 }
